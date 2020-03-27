@@ -48,9 +48,6 @@ Contact: @JokkerKing"""
    DFile - Skrinshot bilan fayl berish
    Video - Faylni skrinshotisiz video sifatida berish
    DFile - Faylni ekran tasvirisiz berish
-boshlash - Bot onlayn bo'lsa, tekshiring!
-yordam - Ushbu botdan qanday foydalanish kerak?
-
 
 /getlink - yuqori tezlikda  yuklab olish havolasini olish.
 
@@ -62,14 +59,14 @@ yordam - Ushbu botdan qanday foydalanish kerak?
 /rename-  Qayta Nomlash.
 /extractstreams - Telegram Media-dan oqimlarni ajratib oling
 
-/ffmpegrobot - ma'lumot oling
+/ffmpegrobot - ma\'lumot oling
 bezak va TimeStamp-ni kiriting.
 
 /downloadmedia - Mediani saqlash uchun yuklab oling.
 
 /storageinfo - Hozirda saqlangan media haqida ma'lumot oling
 
-/unzip - Telegram ichkarisida siqilgan fayllarni chiqarib oling.
+/unzip - Telegramdan turib zip fayllarni chiqarib oling.
 
 /generatecustomthumbnail - Odatiy videolar uchun eskiz yaratish.
 
@@ -77,30 +74,30 @@ bezak va TimeStamp-ni kiriting.
 
 Joriy reja tafsilotlarini bilish uchun menga /me yuboring
 
-Qo'llab-quvvatlash: @JokkerKing"""
-    REPLY_TO_DOC_GET_LINK = "Yuqori tezlikda to'g'ridan-to'g'ri yuklab olish havolasini olish uchun Telegram media-ga javob bering"
-    REPLY_TO_DOC_FOR_C2V = "O'zgartirish uchun Telegram media-ga javob bering"
+Qo\'llab-quvvatlash: @JokkerKing"""
+    REPLY_TO_DOC_GET_LINK = "Yuqori tezlikda to\'g\'ridan-to\'g\'ri yuklab olish havolasini olish uchun Telegram media-ga javob bering"
+    REPLY_TO_DOC_FOR_C2V = "O\'zgartirish uchun Telegram media-ga javob bering"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
     REPLY_TO_DOC_FOR_RENAME_FILE = "Reply to a Telegram media to /rename with custom thumbnail support"
     AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Yaratildi</a> Muddati {} Kun.\n© @Jokkerking"
     FF_MPEG_RO_BOT_RE_SURRECT_ED = """Syntax: /trim HH:MM:SS [HH:MM:SS]"""
-    FF_MPEG_RO_BOT_STEP_TWO_TO_ONE = "Avval biron bir fayl mening hotiramga yuklab olish uchun /downloadmedia \nHozir yuklab olingan media fayllarni bilish uchun ma'lumot /storageinfo yuboring."
-    FF_MPEG_RO_BOT_STOR_AGE_INFO = "Video davomiyligi: {} \ nUshbu mediani saqlash joyimdan o'chirish uchun /clearffmpegmedia yuboring
+    FF_MPEG_RO_BOT_STEP_TWO_TO_ONE = "Avval biron bir faylni mening hotiramga yuklab olish uchun /downloadmedia \nHozir yuklab olingan media fayllarni bilish uchun ma\'lumot /storageinfo yuboring."
+    FF_MPEG_RO_BOT_STOR_AGE_INFO = "Video davomiyligi: {} \ nUshbu mediani saqlash joyimdan o\'chirish uchun /clearffmpegmedia yuboring
 Qirqish uchun /trim HH:MMSS."
     FF_MPEG_RO_BOT_STOR_AGE_ALREADY_EXISTS = "Saqlangan media allaqachon mavjud. Mavjud media tafsilotlarini bilish uchun iltimos, /storageinfo yuboring"
     USER_DELETED_FROM_DB = "User <a href='tg://user?id={}'>{}</a> deleted from DataBase."
     REPLY_TO_DOC_OR_LINK_FOR_RARX_SRT = "Reply to a Telegram media (MKV), to extract embedded streams"
     REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Shaxsiy rasmlarni yaratish uchun media albomga javob bering / generatecustomthumbnail"
     ERR_ONLY_TWO_MEDIA_IN_ALBUM = "Media Albomda faqat ikkita fotosurat bo'lishi kerak. Iltimos, media albomni qayta yuboring va yana urinib ko'ring yoki albomga faqat ikkita rasmni yuboring."
-    INVALID_UPLOAD_BOT_URL_FORMAT = "URL formati noto‘g‘ri. URL manzilingiz http: // yoki https: // bilan boshlanganiga ishonch hosil qiling. Format havolasi | yordamida, siz maxsus fayl nomini qo'yishingiz mumkin file_name.extension"
+    INVALID_UPLOAD_BOT_URL_FORMAT = "URL formati noto\‘g\‘ri. URL manzilingiz http: // yoki https: // bilan boshlanganiga ishonch hosil qiling. Format havolasi | yordamida, siz maxsus fayl nomini qo'yishingiz mumkin file_name.extension"
     ABUSIVE_USERS = "You are not allowed to use this bot. If you think this is a mistake, please check /me to remove this restriction."
     FF_MPEG_RO_BOT_AD_VER_TISE_MENT = "https://telegram.dog/FFMpegRoBot"
-    EXTRACT_ZIP_INTRO_ONE = "Avval zip faylni yuboring, so'ngra faylga javob /unzip buyrug'ini yuboring."
-    EXTRACT_ZIP_INTRO_THREE = "Qabul qilingan faylni tahlil qilish. ⚠️ Bu biroz vaqt talab qilishi mumkin. Iltimos, sabr qiling. "
+    EXTRACT_ZIP_INTRO_ONE = "Avval zip faylni yuboring, so\'ngra faylga javob /unzip buyrug'ini yuboring."
+    EXTRACT_ZIP_INTRO_THREE = "Qabul qilingan faylni tahlil qilish. ⚠️ Bu biroz vaqt talab qilishi mumkin. Iltimos, sabr qiling."
     UNZIP_SUPPORTED_EXTENSIONS = ("zip", "rar")
     EXTRACT_ZIP_ERRS_OCCURED = "Kechirasiz. zip faylni qayta ishlash paytida xatolar yuz berdi. Iltimos, hamma narsani yana ikki marta tekshiring va agar muammo takrorlansa, bu haqda xabar bering <a href='https://telegram.me/jokkerking>@JokkerKing</a>"
     EXTRACT_ZIP_STEP_TWO = """Quyidagi variantlardan yuklash uchun file_name tanlang.
-Faylni olganingizdan so'ng, uni kichik rasmlarni qo'llab-quvvatlash bilan /rename buyruqdan foydalanishingiz mumkin."""
+Faylni olganingizdan so\'ng, uni kichik rasmlarni qo\'llab-quvvatlash bilan /rename buyruqdan foydalanishingiz mumkin."""
     CANCEL_STR = "Process Cancelled"
     ZIP_UPLOADED_STR = "Uploaded {} files in {} seconds"
     FREE_USER_LIMIT_Q_SZE = """Cannot Process.
