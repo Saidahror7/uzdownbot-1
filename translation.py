@@ -1,11 +1,7 @@
 class Translation(object):
-    START_TEXT = """<b>🙋Assalom Alaykum Men URL Orqali Fayllarni Yuklab Beruvchi Bot Bo'laman</b>
-
-Menga url Yuboring
-
-Barcha Malumotlar /help Bo'limida..
-
-Aloqa : @JokkerKing"""
+    START_TEXT = """<b>🙋Assalom Alaykum Men URL Orqali Fayllarni Yuklab Beruvchi Bot Bo'laman</b>\nMenga url Yuboring
+\nBarcha Malumotlar /help Bo'limida..
+\nAloqa : @JokkerKing"""
     RENAME_403_ERR = "Uzur. Faylni Qayta Nomlash Bajarilmadi."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>😅Bu Tekin Sevis. Yangilash Uchun  Plan Mavjud emas 😜</b>  Malumot Uchun /help"
@@ -40,41 +36,26 @@ Plan name: Free  User
 Expires on: 31/12/2020
 Contact: @JokkerKing"""
     HELP_USER = """Salom, URL yuklash uchun.
-    
-1. URL manzilini yuboring (url|kengaytmali yangi nom).
+    \n1. URL manzilini yuboring (url|kengaytmali yangi nom).
 2. Shaxsiy eskizni yuboring (ixtiyoriy).
 3. Tugmani tanlang.
    SVideo - Skrinshotlar yordamida faylni video sifatida berish
    DFile - Skrinshot bilan fayl berish
    Video - Faylni skrinshotisiz video sifatida berish
-   DFile - Faylni ekran tasvirisiz berish
-
-/getlink - yuqori tezlikda  yuklab olish havolasini olish.
-
-/converttoaudio - Telegram-dagi videofayllarni audio-fayllarga aylantirish
-
-
-/converttovideo - faylni videoga aylantirish.
-
-/rename-  Qayta Nomlash.
-/extractstreams - Telegram Media-dan oqimlarni ajratib oling
-
-/ffmpegrobot - ma\'lumot oling
+   DFile - Faylni ekran tasvirisiz berish\n
+\n/getlink - yuqori tezlikda  yuklab olish havolasini olish.
+\n/converttoaudio - Telegram-dagi videofayllarni audio-fayllarga aylantirish
+\n/converttovideo - faylni videoga aylantirish.
+\n/rename-  Qayta Nomlash.
+\n/ffmpegrobot - ma\'lumot oling
 bezak va TimeStamp-ni kiriting.
-
-/downloadmedia - Mediani saqlash uchun yuklab oling.
-
-/storageinfo - Hozirda saqlangan media haqida ma'lumot oling
-
-/unzip - Telegramdan turib zip fayllarni chiqarib oling.
-
+\n/downloadmedia - Mediani saqlash uchun yuklab oling.
+\n/storageinfo - Hozirda saqlangan media haqida ma'lumot oling
+\n/unzip - Telegramdan turib zip fayllarni chiqarib oling.\n
 /generatecustomthumbnail - Odatiy videolar uchun eskiz yaratish.
-
-/generatescss - Telegram Media-ning skrinshotini yarating.
-
-Joriy reja tafsilotlarini bilish uchun menga /me yuboring
-
-Qo\'llab-quvvatlash: @JokkerKing"""
+\n/generatescss - Telegram Media-ning skrinshotini yarating.
+\nJoriy reja tafsilotlarini bilish uchun menga /me yuboring
+\nYaratuvchi: @JokkerKing"""
     REPLY_TO_DOC_GET_LINK = "Yuqori tezlikda to\'g\'ridan-to\'g\'ri yuklab olish havolasini olish uchun Telegram media-ga javob bering"
     REPLY_TO_DOC_FOR_C2V = "O\'zgartirish uchun Telegram media-ga javob bering"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
