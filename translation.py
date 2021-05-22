@@ -1,7 +1,7 @@
 class Translation(object):
     START_TEXT = """<b>🙋Assalom Alaykum Men URL Orqali Fayllarni Yuklab Beruvchi Bot Bo'laman</b>\nMenga url Yuboring
 \nBarcha Malumotlar /help Bo'limida..
-\nAloqa : @JokkerKing"""
+ADMIN : @SAIDJON_OKENN"""
     RENAME_403_ERR = "Uzur. Faylni Qayta Nomlash Bajarilmadi."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>😅Bu Tekin Sevis. Yangilash Uchun  Plan Mavjud emas 😜</b>  Malumot Uchun /help"
@@ -17,10 +17,10 @@ URL | filename | username | password"""
     UPLOAD_START = "<b>Jo'natilmoqga📥</b>"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Yuklashga Ketgan vaqt: {} sekund.\nFayl Hajmi: {}\nUzur. Ammo, men Telegram API cheklovlari tufayli 1.5 Gb dan katta fayllarni yuklay olmayman"
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "Iltimos, meni foydali deb bilsangiz, baholang. https://t.me/tlgrmcbot?start=allonetgbot-review Admin : @JokkerKing"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "📥Yuklashga Ketgan vaqt: {} sekund. \n📣Kanalga a'zo Boling : @Online_Tutorial \n📤Jo'natishga Ketgan vaqt: {} seund."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "Iltimos, meni foydali deb bilsangiz, baholang. https://t.me/youtube_download_video_bot?start=allonetgbot-review Admin : @Saidjon_okenn"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "📥Yuklashga Ketgan vaqt: {} sekund. \n📣Kanalga a'zo Boling : @Hacker_vlogss \n📤Jo'natishga Ketgan vaqt: {} seund."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
-    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.me/jokkerking>@Support : @JokkerKing</a>"
+    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.me/Saidjon_okenn>@Support : @Saidjon_okenn</a>"
     SAVED_CUSTOM_THUMB_NAIL = "Shaxsiy video / fayl eskizi saqlandi. Ushbu rasm video / faylda ishlatiladi. "
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Foydalanuvchi rasmlari muvaffaqiyatli o'chirildi."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
@@ -33,8 +33,8 @@ URL | filename | username | password"""
 FULL FREE😅
 Telegram ID: <code>{}</code>
 Plan name: Free  User
-Expires on: 31/12/2020
-Contact: @JokkerKing"""
+Expires on: 22/05/2021
+Contact: @Saidjon_okenn"""
     HELP_USER = """Salom, URL yuklash uchun.
     \n1. URL manzilini yuboring (url|kengaytmali yangi nom).
 2. Shaxsiy eskizni yuboring (ixtiyoriy).
